@@ -1,0 +1,360 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose readDependencies loading dependencies from C:\projects\HueController\package.json
+5 warn package.json hue-controller@1.0.0 No description
+6 warn package.json hue-controller@1.0.0 No repository field.
+7 warn package.json hue-controller@1.0.0 No README data
+8 verbose install where, deps [ 'C:\\projects\\HueController',
+8 verbose install   [ 'angular2', 'systemjs', 'live-server', 'tsd', 'typescript' ] ]
+9 verbose install where, peers [ 'C:\\projects\\HueController', [] ]
+10 verbose installManyTop reading for lifecycle C:\projects\HueController\package.json
+11 info preinstall hue-controller@1.0.0
+12 verbose readDependencies loading dependencies from C:\projects\HueController\package.json
+13 silly cache add args [ 'live-server@^0.8.1', null ]
+14 verbose cache add spec live-server@^0.8.1
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: 'live-server@^0.8.1',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'live-server',
+15 silly cache add   rawSpec: '^0.8.1',
+15 silly cache add   spec: '>=0.8.1 <0.9.0',
+15 silly cache add   type: 'range' }
+16 silly addNamed live-server@>=0.8.1 <0.9.0
+17 verbose addNamed ">=0.8.1 <0.9.0" is a valid semver range for live-server
+18 silly addNameRange { name: 'live-server', range: '>=0.8.1 <0.9.0', hasData: false }
+19 silly mapToRegistry name live-server
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/live-server
+23 verbose addNameRange registry:https://registry.npmjs.org/live-server not in flight; fetching
+24 silly cache add args [ 'tsd@^0.6.5', null ]
+25 verbose cache add spec tsd@^0.6.5
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'tsd@^0.6.5',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'tsd',
+26 silly cache add   rawSpec: '^0.6.5',
+26 silly cache add   spec: '>=0.6.5 <0.7.0',
+26 silly cache add   type: 'range' }
+27 silly addNamed tsd@>=0.6.5 <0.7.0
+28 verbose addNamed ">=0.6.5 <0.7.0" is a valid semver range for tsd
+29 silly addNameRange { name: 'tsd', range: '>=0.6.5 <0.7.0', hasData: false }
+30 silly mapToRegistry name tsd
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/tsd
+34 verbose addNameRange registry:https://registry.npmjs.org/tsd not in flight; fetching
+35 silly cache add args [ 'typescript@^1.6.2', null ]
+36 verbose cache add spec typescript@^1.6.2
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'typescript@^1.6.2',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'typescript',
+37 silly cache add   rawSpec: '^1.6.2',
+37 silly cache add   spec: '>=1.6.2 <2.0.0',
+37 silly cache add   type: 'range' }
+38 silly addNamed typescript@>=1.6.2 <2.0.0
+39 verbose addNamed ">=1.6.2 <2.0.0" is a valid semver range for typescript
+40 silly addNameRange { name: 'typescript', range: '>=1.6.2 <2.0.0', hasData: false }
+41 silly mapToRegistry name typescript
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/typescript
+45 verbose addNameRange registry:https://registry.npmjs.org/typescript not in flight; fetching
+46 silly cache add args [ 'angular2@2.0.0-alpha.39', null ]
+47 verbose cache add spec angular2@2.0.0-alpha.39
+48 silly cache add parsed spec Result {
+48 silly cache add   raw: 'angular2@2.0.0-alpha.39',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'angular2',
+48 silly cache add   rawSpec: '2.0.0-alpha.39',
+48 silly cache add   spec: '2.0.0-alpha.39',
+48 silly cache add   type: 'version' }
+49 silly addNamed angular2@2.0.0-alpha.39
+50 verbose addNamed "2.0.0-alpha.39" is a plain semver version for angular2
+51 silly mapToRegistry name angular2
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/angular2
+55 verbose addNameVersion registry:https://registry.npmjs.org/angular2 not in flight; fetching
+56 silly cache add args [ 'systemjs@0.19.2', null ]
+57 verbose cache add spec systemjs@0.19.2
+58 silly cache add parsed spec Result {
+58 silly cache add   raw: 'systemjs@0.19.2',
+58 silly cache add   scope: null,
+58 silly cache add   name: 'systemjs',
+58 silly cache add   rawSpec: '0.19.2',
+58 silly cache add   spec: '0.19.2',
+58 silly cache add   type: 'version' }
+59 silly addNamed systemjs@0.19.2
+60 verbose addNamed "0.19.2" is a plain semver version for systemjs
+61 silly mapToRegistry name systemjs
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/systemjs
+65 verbose addNameVersion registry:https://registry.npmjs.org/systemjs not in flight; fetching
+66 verbose request uri https://registry.npmjs.org/live-server
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 8:23:04 PM
+69 verbose request id c7b3b2a70edef57c
+70 verbose etag "9WECHOBJPHR6JE1ESHKAINIA3"
+71 http request GET https://registry.npmjs.org/live-server
+72 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+73 verbose request uri https://registry.npmjs.org/tsd
+74 verbose request no auth needed
+75 info attempt registry request try #1 at 8:23:04 PM
+76 verbose etag "AMQ4D5SIFT5TISS4MY5I2EI92"
+77 http request GET https://registry.npmjs.org/tsd
+78 verbose request uri https://registry.npmjs.org/angular2
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 8:23:04 PM
+81 verbose etag "CCEZOXKJ5ZEQEKEH9JIGLA1ZL"
+82 http request GET https://registry.npmjs.org/angular2
+83 verbose request uri https://registry.npmjs.org/typescript
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 8:23:04 PM
+86 verbose etag "8W31AAFOWXGLMFG33KDM58AR4"
+87 http request GET https://registry.npmjs.org/typescript
+88 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+89 verbose request uri https://registry.npmjs.org/systemjs
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 8:23:04 PM
+92 verbose etag "9FWFEZ6V6JILEB6X2VLF2QTP1"
+93 http request GET https://registry.npmjs.org/systemjs
+94 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+95 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+96 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+97 info attempt registry request try #2 at 8:23:14 PM
+98 verbose etag "9WECHOBJPHR6JE1ESHKAINIA3"
+99 http request GET https://registry.npmjs.org/live-server
+100 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+101 info attempt registry request try #2 at 8:23:14 PM
+102 verbose etag "AMQ4D5SIFT5TISS4MY5I2EI92"
+103 http request GET https://registry.npmjs.org/tsd
+104 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+105 info attempt registry request try #2 at 8:23:14 PM
+106 verbose etag "CCEZOXKJ5ZEQEKEH9JIGLA1ZL"
+107 http request GET https://registry.npmjs.org/angular2
+108 info attempt registry request try #2 at 8:23:14 PM
+109 verbose etag "8W31AAFOWXGLMFG33KDM58AR4"
+110 http request GET https://registry.npmjs.org/typescript
+111 info attempt registry request try #2 at 8:23:14 PM
+112 verbose etag "9FWFEZ6V6JILEB6X2VLF2QTP1"
+113 http request GET https://registry.npmjs.org/systemjs
+114 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+115 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+116 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+117 info attempt registry request try #3 at 8:24:14 PM
+118 verbose etag "9WECHOBJPHR6JE1ESHKAINIA3"
+119 http request GET https://registry.npmjs.org/live-server
+120 silly get cb [ 304, undefined ]
+121 verbose etag https://registry.npmjs.org/live-server from cache
+122 verbose get saving live-server to C:\Users\bswil\AppData\Roaming\npm-cache\registry.npmjs.org\live-server\.cache.json
+123 silly addNameRange number 2 { name: 'live-server', range: '>=0.8.1 <0.9.0', hasData: true }
+124 silly addNameRange versions [ 'live-server',
+124 silly addNameRange   [ '0.1.0',
+124 silly addNameRange     '0.1.1',
+124 silly addNameRange     '0.2.0',
+124 silly addNameRange     '0.3.0',
+124 silly addNameRange     '0.4.0',
+124 silly addNameRange     '0.5.0',
+124 silly addNameRange     '0.6.0',
+124 silly addNameRange     '0.6.1',
+124 silly addNameRange     '0.6.2',
+124 silly addNameRange     '0.6.3',
+124 silly addNameRange     '0.6.4',
+124 silly addNameRange     '0.7.0',
+124 silly addNameRange     '0.7.1',
+124 silly addNameRange     '0.8.0',
+124 silly addNameRange     '0.8.1' ] ]
+125 silly addNamed live-server@0.8.1
+126 verbose addNamed "0.8.1" is a plain semver version for live-server
+127 info attempt registry request try #3 at 8:24:14 PM
+128 verbose etag "AMQ4D5SIFT5TISS4MY5I2EI92"
+129 http request GET https://registry.npmjs.org/tsd
+130 silly get cb [ 304, undefined ]
+131 verbose etag https://registry.npmjs.org/tsd from cache
+132 verbose get saving tsd to C:\Users\bswil\AppData\Roaming\npm-cache\registry.npmjs.org\tsd\.cache.json
+133 info attempt registry request try #3 at 8:24:14 PM
+134 verbose etag "CCEZOXKJ5ZEQEKEH9JIGLA1ZL"
+135 http request GET https://registry.npmjs.org/angular2
+136 info attempt registry request try #3 at 8:24:14 PM
+137 verbose etag "8W31AAFOWXGLMFG33KDM58AR4"
+138 http request GET https://registry.npmjs.org/typescript
+139 info attempt registry request try #3 at 8:24:14 PM
+140 verbose etag "9FWFEZ6V6JILEB6X2VLF2QTP1"
+141 http request GET https://registry.npmjs.org/systemjs
+142 silly get cb [ 304, undefined ]
+143 verbose etag https://registry.npmjs.org/angular2 from cache
+144 verbose get saving angular2 to C:\Users\bswil\AppData\Roaming\npm-cache\registry.npmjs.org\angular2\.cache.json
+145 silly get cb [ 304, undefined ]
+146 verbose etag https://registry.npmjs.org/typescript from cache
+147 verbose get saving typescript to C:\Users\bswil\AppData\Roaming\npm-cache\registry.npmjs.org\typescript\.cache.json
+148 silly get cb [ 304, undefined ]
+149 verbose etag https://registry.npmjs.org/systemjs from cache
+150 verbose get saving systemjs to C:\Users\bswil\AppData\Roaming\npm-cache\registry.npmjs.org\systemjs\.cache.json
+151 silly addNameRange number 2 { name: 'tsd', range: '>=0.6.5 <0.7.0', hasData: true }
+152 silly addNameRange versions [ 'tsd',
+152 silly addNameRange   [ '0.1.0',
+152 silly addNameRange     '0.1.1',
+152 silly addNameRange     '0.1.2',
+152 silly addNameRange     '0.2.0',
+152 silly addNameRange     '0.2.1',
+152 silly addNameRange     '0.2.2',
+152 silly addNameRange     '0.3.0',
+152 silly addNameRange     '0.3.1',
+152 silly addNameRange     '0.5.2',
+152 silly addNameRange     '0.5.3',
+152 silly addNameRange     '0.5.5',
+152 silly addNameRange     '0.5.6',
+152 silly addNameRange     '0.5.7',
+152 silly addNameRange     '0.6.0-beta.1',
+152 silly addNameRange     '0.6.0-beta.2',
+152 silly addNameRange     '0.6.0-beta.3',
+152 silly addNameRange     '0.6.0-beta.4',
+152 silly addNameRange     '0.6.0-beta.5',
+152 silly addNameRange     '0.6.0',
+152 silly addNameRange     '0.6.1',
+152 silly addNameRange     '0.6.3',
+152 silly addNameRange     '0.6.4-beta',
+152 silly addNameRange     '0.6.4',
+152 silly addNameRange     '0.6.5-beta',
+152 silly addNameRange     '0.6.5-beta.2',
+152 silly addNameRange     '0.6.5' ] ]
+153 silly addNamed tsd@0.6.5
+154 verbose addNamed "0.6.5" is a plain semver version for tsd
+155 silly cache afterAdd live-server@0.8.1
+156 verbose afterAdd C:\Users\bswil\AppData\Roaming\npm-cache\live-server\0.8.1\package\package.json not in flight; writing
+157 silly addNameRange number 2 { name: 'typescript', range: '>=1.6.2 <2.0.0', hasData: true }
+158 silly addNameRange versions [ 'typescript',
+158 silly addNameRange   [ '0.8.0',
+158 silly addNameRange     '0.8.1',
+158 silly addNameRange     '0.8.1-1',
+158 silly addNameRange     '0.8.2',
+158 silly addNameRange     '0.8.3',
+158 silly addNameRange     '0.9.0',
+158 silly addNameRange     '0.9.0-1',
+158 silly addNameRange     '0.9.1',
+158 silly addNameRange     '0.9.1-1',
+158 silly addNameRange     '0.9.5',
+158 silly addNameRange     '0.9.7',
+158 silly addNameRange     '1.0.0',
+158 silly addNameRange     '1.0.1',
+158 silly addNameRange     '1.1.0-1',
+158 silly addNameRange     '1.3.0',
+158 silly addNameRange     '1.4.1',
+158 silly addNameRange     '1.5.0-alpha',
+158 silly addNameRange     '1.5.0-beta',
+158 silly addNameRange     '1.5.3',
+158 silly addNameRange     '1.6.0-dev.20150722.1',
+158 silly addNameRange     '1.6.0-dev.20150723',
+158 silly addNameRange     '1.6.0-dev.20150724',
+158 silly addNameRange     '1.6.0-dev.20150725',
+158 silly addNameRange     '1.6.0-dev.20150726',
+158 silly addNameRange     '1.6.0-dev.20150727',
+158 silly addNameRange     '1.6.0-dev.20150728',
+158 silly addNameRange     '1.6.0-dev.20150729',
+158 silly addNameRange     '1.6.0-dev.20150730',
+158 silly addNameRange     '1.6.0-dev.20150731',
+158 silly addNameRange     '1.6.0-dev.20150801',
+158 silly addNameRange     '1.6.0-dev.20150802',
+158 silly addNameRange     '1.6.0-dev.20150803',
+158 silly addNameRange     '1.6.0-dev.20150804',
+158 silly addNameRange     '1.6.0-dev.20150805',
+158 silly addNameRange     '1.6.0-dev.20150806',
+158 silly addNameRange     '1.6.0-dev.20150807',
+158 silly addNameRange     '1.6.0-dev.20150808',
+158 silly addNameRange     '1.6.0-dev.20150809',
+158 silly addNameRange     '1.6.0-dev.20150810',
+158 silly addNameRange     '1.6.0-dev.20150811',
+158 silly addNameRange     '1.6.0-dev.20150812',
+158 silly addNameRange     '1.6.0-dev.20150813',
+158 silly addNameRange     '1.6.0-dev.20150814',
+158 silly addNameRange     '1.6.0-dev.20150815',
+158 silly addNameRange     '1.6.0-dev.20150816',
+158 silly addNameRange     '1.6.0-dev.20150817',
+158 silly addNameRange     '1.6.0-dev.20150818',
+158 silly addNameRange     '1.6.0-dev.20150819',
+158 silly addNameRange     '1.6.0-dev.20150820',
+158 silly addNameRange     '1.6.0-dev.20150821',
+158 silly addNameRange     '1.6.0-dev.20150822',
+158 silly addNameRange     '1.6.0-dev.20150823',
+158 silly addNameRange     '1.6.0-dev.20150824',
+158 silly addNameRange     '1.6.0-dev.20150825',
+158 silly addNameRange     '1.7.0-dev.20150826',
+158 silly addNameRange     '1.7.0-dev.20150827',
+158 silly addNameRange     '1.7.0-dev.20150828',
+158 silly addNameRange     '1.7.0-dev.20150829',
+158 silly addNameRange     '1.7.0-dev.20150830',
+158 silly addNameRange     '1.7.0-dev.20150831',
+158 silly addNameRange     '1.7.0-dev.20150901',
+158 silly addNameRange     '1.7.0-dev.20150902',
+158 silly addNameRange     '1.6.0-beta',
+158 silly addNameRange     '1.7.0-dev.20150903',
+158 silly addNameRange     '1.7.0-dev.20150904',
+158 silly addNameRange     '1.6.0-dev.20150905',
+158 silly addNameRange     '1.6.0-dev.20150906',
+158 silly addNameRange     '1.6.0-dev.20150907',
+158 silly addNameRange     '1.6.0-dev.20150908',
+158 silly addNameRange     '1.6.0-dev.20150909',
+158 silly addNameRange     '1.6.0-dev.20150910',
+158 silly addNameRange     '1.6.0-dev.20150911',
+158 silly addNameRange     '1.6.0-dev.20150912',
+158 silly addNameRange     '1.6.0-dev.20150913',
+158 silly addNameRange     '1.6.0-dev.20150914',
+158 silly addNameRange     '1.6.0-dev.20150915',
+158 silly addNameRange     '1.7.0-dev.20150916',
+158 silly addNameRange     '1.6.2',
+158 silly addNameRange     '1.7.0-dev.20150917',
+158 silly addNameRange     '1.7.0-dev.20150918',
+158 silly addNameRange     '1.7.0-dev.20150919',
+158 silly addNameRange     '1.7.0-dev.20150920',
+158 silly addNameRange     '1.7.0-dev.20150921',
+158 silly addNameRange     '1.7.0-dev.20150922',
+158 silly addNameRange     '1.7.0-dev.20150923',
+158 silly addNameRange     '1.7.0-dev.20150924',
+158 silly addNameRange     '1.7.0-dev.20150925',
+158 silly addNameRange     '1.7.0-dev.20150926',
+158 silly addNameRange     '1.7.0-dev.20150927',
+158 silly addNameRange     '1.7.0-dev.20150928',
+158 silly addNameRange     '1.7.0-dev.20150929',
+158 silly addNameRange     '1.7.0-dev.20150930',
+158 silly addNameRange     '1.7.0-dev.20151001',
+158 silly addNameRange     '1.7.0-dev.20151002',
+158 silly addNameRange     '1.7.0-dev.20151003',
+158 silly addNameRange     '1.7.0-dev.20151004',
+158 silly addNameRange     '1.7.0-dev.20151005' ] ]
+159 silly addNamed typescript@1.6.2
+160 verbose addNamed "1.6.2" is a plain semver version for typescript
+161 verbose afterAdd C:\Users\bswil\AppData\Roaming\npm-cache\live-server\0.8.1\package\package.json written
+162 silly cache afterAdd tsd@0.6.5
+163 verbose afterAdd C:\Users\bswil\AppData\Roaming\npm-cache\tsd\0.6.5\package\package.json not in flight; writing
+164 silly cache afterAdd systemjs@0.19.2
+165 verbose afterAdd C:\Users\bswil\AppData\Roaming\npm-cache\systemjs\0.19.2\package\package.json not in flight; writing
+166 verbose afterAdd C:\Users\bswil\AppData\Roaming\npm-cache\tsd\0.6.5\package\package.json written
+167 silly cache afterAdd typescript@1.6.2
+168 verbose afterAdd C:\Users\bswil\AppData\Roaming\npm-cache\typescript\1.6.2\package\package.json not in flight; writing
+169 verbose afterAdd C:\Users\bswil\AppData\Roaming\npm-cache\typescript\1.6.2\package\package.json written
+170 verbose afterAdd C:\Users\bswil\AppData\Roaming\npm-cache\systemjs\0.19.2\package\package.json written
+171 verbose stack Error: version not found: angular2@2.0.0-alpha.39
+171 verbose stack     at setData (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:137:12)
+171 verbose stack     at RES (C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+171 verbose stack     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:17:25)
+171 verbose stack     at fixName (C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:29:5)
+171 verbose stack     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:173:7)
+171 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+171 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+172 verbose statusCode 404
+173 verbose cwd C:\projects\HueController
+174 error Windows_NT 10.0.10240
+175 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+176 error node v4.1.1
+177 error npm  v2.14.4
+178 error version not found: angular2@2.0.0-alpha.39
+179 error If you need help, you may report this error at:
+179 error     <https://github.com/npm/npm/issues>
+180 verbose exit [ 1, true ]
