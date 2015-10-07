@@ -4,10 +4,19 @@
 <meta charset="utf-8">
 <title>Hue Controller</title>
 <link rel="stylesheet" href="styles.css">
+  <script src="../../node_modules/systemjs/dist/system.src.js"></script>
+  <script src="../../node_modules/angular2/bundles/angular2.dev.js"></script>
+  <script src="../../node_modules/angular2/bundles/router.dev.js"></script>
+  <script>
+    System.config({
+      packages: {'app': {defaultExtension: 'js'}}
+    });
+    System.import('app/bootstrap');
+  </script>
 </head>
 <body>
 	<div class="container">
-		<p>Lorem ipsum dolar sit amet&#8230;</p>
+		<my-app>Loading&#8230;</my-app>
 	</div>
 </body>
 </html>
