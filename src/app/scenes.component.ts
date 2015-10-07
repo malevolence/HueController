@@ -5,19 +5,7 @@ import {Scene} from './scene';
 
 @Component({ selector: 'scenes' })
 @View({
-	template: `
-	<div class="page-header">
-		<h1>Select a Scene</h1>
-	</div>
-		<ul>
-			<li *ng-for="#scene of scenes" (click)="onSelect(scene)">
-				{{scene.name}}
-			</li>
-		</ul>
-		<p *ng-if="currentScene">
-			{{ currentScene.name}} is currently selected
-		</p>
-	`,
+	templateUrl: 'app/scenes.component.html',
 	directives: [NgFor, NgIf]
 })
 export class ScenesComponent {

@@ -1,0 +1,7 @@
+<div class="page-header">
+	<h1>Scenes</h1>
+</div>
+<ul>
+	<li *ng-for="#scene of scenes"><a (click)="onSelect(scene)">{{scene.name}}</a></li>
+</ul>
+<p *ng-if="currentScene">{{ currentScene.name}} is the currently selected scene.</p>

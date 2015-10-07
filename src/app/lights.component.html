@@ -1,0 +1,7 @@
+	<div class="page-header">
+		<h1>Lights</h1>
+	</div>
+	<ul>
+		<li *ng-for="#light of lights"><a (click)="onSelect(light)">{{light.name}}</a></li>
+	</ul>
+	<p *ng-if="currentLight">{{ currentLight.name }} is the currently selected light.</p>

@@ -5,19 +5,7 @@ import {Light} from './light';
 
 @Component({ selector: 'lights' })
 @View({
-	template: `
-	<div class="page-header">
-	<h1>Lights</h1>
-	</div>
-	<ul>
-		<li *ng-for="#light of lights" (click)="onSelect(light)">
-		{{light.name}}
-		</li>
-	</ul>
-	<p *ng-if="currentLight">
-	{{ currentLight.name }}
-	</p>
-	`,
+	templateUrl: 'app/lights.component.html',
 	directives: [NgFor, NgIf]
 })
 export class LightsComponent {
