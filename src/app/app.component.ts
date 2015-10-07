@@ -5,11 +5,7 @@ import {LightsComponent} from './lights.component';
 
 @Component({ selector: 'my-app' })
 @View({
-	template: `
-	<a [router-link]="['./Scenes']">Scenes</a>
-	<a [router-link]="['./Lights']">Lights</a>
-	<router-outlet></router-outlet>
-	`,
+	templateUrl: 'app/app.component.html',
 	directives: [ROUTER_DIRECTIVES]
 })
 @RouteConfig([

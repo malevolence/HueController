@@ -6,7 +6,9 @@ import {Light} from './light';
 @Component({ selector: 'lights' })
 @View({
 	template: `
-	<h2>Lights</h2>
+	<div class="page-header">
+	<h1>Lights</h1>
+	</div>
 	<ul>
 		<li *ng-for="#light of lights" (click)="onSelect(light)">
 		{{light.name}}

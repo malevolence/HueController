@@ -1,6 +1,1 @@
-* { margin: 0; padding: 0; }
-body { padding: 20px; font: 14px/1.4 arial, helvetica, sans-serif; background-color: #fff; color: #555; }
-a { color: #06c; text-decoration: none; }
-a:hover, a:focus { text-decoration: underline; }
-p { margin-bottom: 20px; }
-.container { margin: 0 auto; width: 940px; }
+.page-header { margin-top: 0; }

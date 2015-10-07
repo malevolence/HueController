@@ -6,7 +6,9 @@ import {Scene} from './scene';
 @Component({ selector: 'scenes' })
 @View({
 	template: `
-		<h2>Select a Scene</h2>
+	<div class="page-header">
+		<h1>Select a Scene</h1>
+	</div>
 		<ul>
 			<li *ng-for="#scene of scenes" (click)="onSelect(scene)">
 				{{scene.name}}

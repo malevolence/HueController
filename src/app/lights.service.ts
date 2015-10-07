@@ -1,6 +1,6 @@
 import {Light} from './light';
 
-export class LigtsService {
+export class LightsService {
 	getLights() { return Promise.resolve(LIGHTS); }
 
 	getLight(id: number) {
