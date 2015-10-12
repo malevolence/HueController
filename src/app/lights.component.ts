@@ -1,6 +1,5 @@
 import {Component, NgFor, NgIf, View} from 'angular2/angular2';
-import {Router} from 'angular2/router';
-import {LightsService} from './lights.service';
+import {HueService} from './hue.service';
 import {Light} from './light';
 
 @Component({ selector: 'lights' })
@@ -9,22 +8,26 @@ import {Light} from './light';
 	directives: [NgFor, NgIf]
 })
 export class LightsComponent {
-	private _lights: Light[];
-	public currentLight: Light;
+	lights: Light[] = [];
+	currentLight: Light;
 
-	constructor(private _lightsService: LightsService) { }
-
-	get lights() {
-		return this._lights || this.getLights();
+	constructor(private service: HueService) {
+		service.getLights().subscribe((res: any) => {
+			for (var obj in res) {
+				this.lights.push({
+					id: obj,
+					name: res[obj].name,
+					state: res[obj].state
+				});
+			}
+		});
 	}
 
 	onSelect(light: Light) { this.currentLight = light; }
 
-	private getLights() {
-		this._lights = [];
-		this._lightsService.getLights()
-			.then(lights => this._lights = lights);
-
-		return this._lights;
+	toggleLight(light: Light) {
+		console.log('Turning ' + light.name + ' light ' + (light.state.on ? "off" : "on"));
+		this.service.toggleLight(light.id, light.state.on);
+		light.state.on = !light.state.on;
 	}
 }

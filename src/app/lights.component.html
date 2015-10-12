@@ -2,6 +2,6 @@
 		<h1>Lights</h1>
 	</div>
 	<ul>
-		<li *ng-for="#light of lights"><a (click)="onSelect(light)">{{light.name}}</a></li>
+		<li *ng-for="#light of lights"><a (click)="onSelect(light)">{{light.name}}</a> <button type="button" class="btn btn-default btn-xs" (click)="toggleLight(light)"><span class="glyphicon glyphicon-off"></span></button></li>
 	</ul>
 	<p *ng-if="currentLight">{{ currentLight.name }} is the currently selected light.</p>

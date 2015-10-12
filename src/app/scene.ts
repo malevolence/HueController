@@ -1,4 +1,6 @@
 export interface Scene {
-	id: number;
+	id: string;
 	name: string;
+	lights: Array<number>;
+	active: boolean;
 }

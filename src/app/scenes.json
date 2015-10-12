@@ -1,0 +1,398 @@
+{
+    "84fa88aa5-on-0":{
+        "name":"Energize on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "5ca9f503b-on-0":{
+        "name":"Default on 1434077226151",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "8897c507d-on-0":{
+        "name":"Default on 1419296532920",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "33300ac174-on-0":{
+        "name":"Feet up on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "019680c72-on-0":{
+        "name":"Laila on 1428276752171",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "8485b5663-on-0":{
+        "name":"Default on 1428797016788",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "7f1859f95-on-0":{
+        "name":"Default on 1428798088401",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "XEnergize":{
+        "name":"Energize",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "XRelax":{
+        "name":"Relax",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "a8768f295-on-0":{
+        "name":"Default on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "98850ec24-on-0":{
+        "name":"Hammock on 1420339103455",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "0f2c67d80-on-0":{
+        "name":"Blue rain on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "64b4aa87e-on-0":{
+        "name":"Laila on 1416778049122",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "b0e9c5bb9-on-0":{
+        "name":"'Murica! on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "fd499c3e2-on-0":{
+        "name":"Taj on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "f5d73dbdd-on-0":{
+        "name":"Concentrate on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "ac637e2f0-on-0":{
+        "name":"Relax on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "6b6ca6a0d-on-0":{
+        "name":"Beach on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "f65f5e6b8-on-0":{
+        "name":"The Matrix on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "2e1dbbb4a-on-0":{
+        "name":"Pencils on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "33300ac17-on-0":{
+        "name":"Feet up on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "2141cb8bd-on-0":{
+        "name":"Deep sea on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "25b485af0-on-0":{
+        "name":"Jump! on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "54ae5d997-on-0":{
+        "name":"Ski on 1417906005822",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "e915785b2-on-0":{
+        "name":"Reading on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "02b12e930-off-0":{
+        "name":"Energize off 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "c9966f481-on-0":{
+        "name":"Deviled Eggs on ",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "797106fb9-on-0":{
+        "name":"Hammock on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "8bfa5715e-on-0":{
+        "name":"Laila on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "e07a35d7e-on-0":{
+        "name":"Greece on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "f2b600f90-on-0":{
+        "name":"Kathy on 1411248",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "778a155db-on-0":{
+        "name":"Deep sea on 1417992558983",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "fdec83a81-on-0":{
+        "name":"Blue rain on 1417996701766",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "3896c310d-on-0":{
+        "name":"Jump! on 1420339108110",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "087f88f522-on-0":{
+        "name":"Sunset on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "ee3a68161-on-0":{
+        "name":"Duke on 1428364435673",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "bc255f955-on-0":{
+        "name":"Orlando City Soccer on 143726512",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "a8768f295b-on-0":{
+        "name":"Default on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "8fd93f274-on-0":{
+        "name":"Default on 1442529510714",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "cf7ca6c7a-on-0":{
+        "name":"Pencils on 1429030650857",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "cc3982c7d-on-0":{
+        "name":"Living room on 1428516117795",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "XFocus":{
+        "name":"Focus",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "XReading":{
+        "name":"Reading",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    },
+    "087f88f52-on-0":{
+        "name":"Sunset on 0",
+        "lights":[
+            "1",
+            "2",
+            "3"
+        ],
+        "active":true
+    }
+}
